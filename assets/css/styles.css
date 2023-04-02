@@ -1,0 +1,185 @@
+:root {
+    --clr-primary-400: hsl(332, 54%, 62%);
+    --clr-primary-300: hsl(332,76%,72%);
+
+    --clr-neutral-0: hsl(0,0%,100%);
+    --clr-neutral-100: hsl(352, 100%, 96%);
+    --clr-neutral-900: hsl(39, 70%, 6%);
+    --clr-neutral-1000: hsl(39, 70%, 3%);
+
+    --ff-normal: "Comfortaa";
+    --ff-special: "Chicle";
+
+    --fw-normal: 400;
+    --fw-bold: 700;
+    --fw-bolder: 800;
+}
+
+/* RESET */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    background-color: var(--clr-neutral-100);
+    font-family: var(--ff-normal);
+}
+
+/* NAVBAR */
+.navbar-toggler,
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.nav-item a {
+    color: var(--clr-primary-400);
+    font-family: var(--ff-special);
+    font-size: 1.5rem;
+}
+
+/* HERO */
+.background-img {
+    background-image: url(../images/Hypnotic.png);
+    background-position: center;
+    padding: 2rem 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: var(--ff-special);
+    letter-spacing: .15rem;
+    color: var(--clr-primary-400);
+    text-shadow: -1px 1px 0px var(--clr-neutral-0);
+}
+
+/* WHAT IS TRIPNICS */
+.what-is-container {
+    border: 4px solid var(--clr-primary-300);
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+h2 {
+    font-family: var(--ff-special);
+    letter-spacing: .15rem;
+    color: var(--clr-primary-400);
+    text-shadow: -1px 1px 0px var(--clr-neutral-0);
+}
+
+.what-is-prg {
+    text-indent: 2rem;
+}
+
+.read-more-btn {
+    background-color: var(--clr-neutral-900);
+}
+
+.read-more-btn a {
+    color: var(--clr-primary-300);
+    font-family: var(--ff-special);
+}
+
+.read-more-btn:hover {
+    background-color: var(--clr-neutral-1000);
+}
+
+/* TESTIMONIALS */
+.carousel {
+    background-color: var(--clr-neutral-900);
+
+}
+
+.carousel-item p {
+    min-height: 350px;
+}
+
+.testimonial {
+    color: var(--clr-neutral-100);
+}
+
+/* FOOTER */
+footer {
+    background-image: url(../images/Footer-img.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 0;
+}
+
+.faq-button {
+    background-color: var(--clr-neutral-900);
+}
+
+.faq-button:hover {
+    background-color: var(--clr-neutral-1000);
+}
+
+.faq-button a {
+    color: var(--clr-primary-300);
+    text-decoration: none;
+    font-family: var(--ff-special);
+    letter-spacing: .2rem;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.fa-brands {
+    color: var(--clr-neutral-900);
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fa-brands:hover {
+    color: var(--clr-neutral-1000);
+}
+
+/* FAQ ACCORDION */
+.faq {
+    font-size: 4rem;
+    text-shadow: -3px 3px 0px var(--clr-neutral-0);
+}
+
+.accordion-button,
+.accordion-button:focus {
+    background-color: var(--clr-neutral-900);
+    color: var(--clr-primary-300);
+    letter-spacing: .2rem;
+}
+
+.accordion-body {
+    background-color: var(--clr-neutral-100);
+    color: var(--clr-neutral-900);
+}
+
+
