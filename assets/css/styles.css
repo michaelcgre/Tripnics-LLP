@@ -182,17 +182,29 @@ footer {
     color: var(--clr-neutral-900);
 }
 
-/* ABOUT US */
+/* UNIVERSAL */
 
 .-round-img- {
     border-radius: 50%;
 }
 
-.-aboutus-mgn-pdg- {
+.-container-mgn-pdg- {
     margin: 5% 10%;
     padding: 5% 10%;
 }
 
+/* ABOUT US */
+
 .-aboutus-h2- {
     font-size: 2.5rem;
+}
+
+/* GALLERY */
+
+.-gallery-h2- {
+    font-size: 4rem;
+}
+
+.-col-gap- {
+    column-gap: 8px;
 }
