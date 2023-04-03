@@ -225,3 +225,64 @@ h3 {
     }
     
 }
+
+* UNIVERSAL */
+
+.-round-img- {
+    border-radius: 50%;
+}
+
+.-container-mgn-pdg- {
+    margin: 5% 10%;
+    padding: 5% 10%;
+}
+
+.-col-mg- {
+    margin-left: 0.2px;
+}
+
+/* ABOUT US */
+
+.-aboutus-h2- {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 575px) and (min-width: 475px) {
+
+    .what-is-container {
+        min-width: 445px;
+        max-width: 545px;
+        margin-left: 5%;
+    }
+
+}
+
+@media (max-width: 475px) and (min-width: 375px) {
+
+    .what-is-container {
+        min-width: 345px;
+        max-width: 445px;
+        margin-left: 5%;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .what-is-container {
+        min-width: 345px;
+        max-width: 345px;
+        margin-left: 5%;
+    }
+
+}
+
+/* GALLERY */
+
+.-gallery-h2- {
+    font-size: 4rem;
+}
+
+.-col-gap- {
+    column-gap: 8px;
+}
