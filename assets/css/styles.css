@@ -60,7 +60,7 @@ body {
 }
 
 .nav-item a {
-    color: var(--clr-primary-400);
+    color: var(--clr-primary-300);
     font-family: var(--ff-special);
     font-size: 1.5rem;
 }
@@ -100,6 +100,7 @@ h2 {
 
 .read-more-btn {
     background-color: var(--clr-neutral-900);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .read-more-btn a {
@@ -131,11 +132,11 @@ footer {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 6rem 0;
 }
 
 .faq-button {
     background-color: var(--clr-neutral-900);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .faq-button:hover {
@@ -164,6 +165,9 @@ footer {
     color: var(--clr-neutral-1000);
 }
 
+.footer-padding {
+    padding: 5rem 0;
+}
 /* FAQ ACCORDION */
 .faq {
     font-size: 4rem;
@@ -182,4 +186,42 @@ footer {
     color: var(--clr-neutral-900);
 }
 
+.themes img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
 
+h3 {
+    font-family: var(--ff-special);
+    color: var(--clr-primary-400);
+    text-shadow: -1px 1px 0px var(--clr-neutral-0);
+}
+
+@media (min-width: 768px) {
+    .footer-animation__image--1 {
+        margin-left: -40px;
+      
+      animation: rotation 4s infinite linear;
+    }
+    
+    
+    @keyframes rotation {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      25% {
+        -webkit-transform: rotate(3deg);
+      }
+      50% {
+        -webkit-transform: rotate(0deg);
+      }
+      75% {
+        -webkit-transform: rotate(-3deg);
+      }
+      100% {
+        -webkit-transform: rotate(0deg);
+      }
+    }
+    
+}
